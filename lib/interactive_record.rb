@@ -31,5 +31,8 @@ class InteractiveRecord
     end
   end
 
+  def table_name_for_insert
+    self.class.table_name
+  end
 
 end
